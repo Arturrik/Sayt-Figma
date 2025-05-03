@@ -1,0 +1,385 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+    gap: 32px;
+    display: flex;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color: black;
+    text-decoration: none; 
+    font-size: 20px;
+  }
+  .container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.header_logo {
+    display: flex;
+    gap: 10px;
+}
+.header_h2{
+    font-size: 24px;
+
+}  
+
+.header_flex {
+    display: flex;
+    align-items: center;
+    padding: 35px 0;
+    gap: 212px;
+    
+}
+.nav_flex{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.header_buttons {
+    display: flex;
+    gap: 20px;
+}
+.header_button {
+    width: 104px;
+    align-items: center;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+.header {
+    background-color: #fff; 
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    font-family: 'Arial', sans-serif;  
+  }
+  
+  .logo {
+    width: 120px; 
+  }
+  
+  .logo img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-size: 14px; 
+  }
+  
+  .nav li {
+    margin-left: 25px; 
+  }
+  
+  .nav a {
+    text-decoration: none;
+    color: #777; 
+    font-weight: 500; 
+  }
+  
+  .nav a:hover {
+    color: #333; 
+  }
+  
+  .auth-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .auth-links a {
+    text-decoration: none;
+    color: #777; 
+    margin-left: 20px; 
+    font-weight: 500; 
+    font-size: 14px; 
+  }
+  .signup-button {
+    background-color: #ffe082; 
+    color: black;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold; 
+    font-size: 14px; 
+  }
+  body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; 
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  p {
+    font-family: "Arial", sans-serif;
+  }
+  h1 {
+    font-family: "Arial", sans-serif;
+  }
+
+  .hero {
+    background-color: #f0f0ff; 
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 50%;
+  }
+
+  .hero-image {
+    width: 40%;
+    text-align: center;
+  }
+
+  .hero-image img {
+    max-width: 100%;
+    border: none; 
+    border-radius: 5px;
+  }
+  .timurka{
+  color: black;
+  }
+
+  .button {
+    background-color: #ffe082; 
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  .move-down {
+    margin-top: 59px;
+  }
+  .move-top {
+    margin-top: 60px;
+  }
+.move-rick {
+  margin-top: 10px;
+}
+
+.move-defender {
+margin-left: 230px ;
+border: none;
+}
+  .collection {
+    margin-top: 30px;
+  }
+
+  .collection-title {
+    text-align: center;
+    margin-bottom: 30px;
+    
+  }
+  .merriweather-uniquifier {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+   "wdth" 100;
+   
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+
+  .product-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .product-card img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  .product-price {
+    font-weight: bold;
+  }
+
+  .payment-form {
+    background-color: #d2b48c; 
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .form-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Arial", sans-serif;
+  }
+
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box; 
+  }
+  .footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #666; width: 100%;
+    bottom: 0;
+    border-radius: 100%;
+    
+  }
+  
+  .footer-content a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin-left: 10px;
+  }
+  
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+
+  .payment-form {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+  }
+  .testimonial {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px;
+  }
+  .header{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  .hero{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .form-card {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 30px; 
+    text-align: center; 
+    width: 80%; 
+    max-width: 600px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05); 
+    margin: 20px; 
+  }
+  
+  .form-card p:first-child {
+    color: #333; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-bottom: 20px; 
+  }
+  
+  .form-card img {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 10px; 
+  }
+  
+  .form-card p:last-child {
+    color: #FFFF; 
+    font-size: 14px; 
+    font-weight: bold; 
+  }
+  
+  
+  .form-card:before {
+    font-size: 3em;
+    position: relative;
+    top: -25px;
+    left: -10px;
+    display: inline-block;
+    transform: rotate(180deg);
+  
+  }
+  
+  .form-card:after {
+    font-size: 3em;
+    position: relative;
+    top: -25px;
+    right: -10px;
+    display: inline-block;
+  
+  }
+  .payment-container {
+    position:  relative;
+  }
