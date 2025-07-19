@@ -1,2 +1,2 @@
-# Sayt-Figma
-Sayt Figma
+# Website-Figma
+Website Figma
